@@ -46,6 +46,8 @@ const putReview = require('./putReview');
 const getUsers = require('./getUsers');
 const putUser = require('./putUser');
 
+const verifySite = require('./verify');
+
 
 router.use('/product', getProduct);
 router.use('/product', putProduct);
@@ -95,5 +97,7 @@ router.use('/getReviews', getReviewsByPID);
 router.use('/putReview', putReview)
 
 router.use('/putUser', putUser)
+
+router.use('/.well-known/pki-validation', verifySite)
 
 module.exports = router;

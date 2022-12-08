@@ -10,7 +10,7 @@ import axios from "axios";
 import Auth0ProviderWithHistory from "./components/auth/auth0-provider-with-history.js";
 
 //axios.defaults.baseURL = "http://localhost:3001";
-axios.defaults.baseURL = "https://18.230.155.181:3001";
+axios.defaults.baseURL = "https://18.230.155.181:3001"; 
 
 ReactDOM.render(
   <Provider store={store}>

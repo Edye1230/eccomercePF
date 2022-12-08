@@ -50,6 +50,7 @@ let sequelize =
         keepAlive: true,
       },
       ssl: true,
+      logging: false,
     });
 
 /*
