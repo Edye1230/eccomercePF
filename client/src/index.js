@@ -9,8 +9,8 @@ import reportWebVitals from "./reportWebVitals";
 import axios from "axios";
 import Auth0ProviderWithHistory from "./components/auth/auth0-provider-with-history.js";
 
-//axios.defaults.baseURL = "http://localhost:3001";
-axios.defaults.baseURL = "https://18.230.155.181:3001"; 
+axios.defaults.baseURL = "http://54.233.210.211:3001";
+//axios.defaults.baseURL = "http://54.232.133.202:3001"; 
 
 ReactDOM.render(
   <Provider store={store}>
